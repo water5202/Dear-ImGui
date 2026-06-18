@@ -38,7 +38,7 @@ Reference detections have been mitigated using `cloneref`, and compatibility is 
 If support is not found, for example when using this in Studio, you are still able to use it.
 
 ```lua
-local ImGui = loadstring(game:HttpGet("https://github.com/depthso/Roblox-ImGUI/raw/main/ImGui.lua"))()
+local ImGui = loadstring(game:HttpGet("https://raw.githubusercontent.com/water5202/Dear-ImGui/refs/heads/main/ImGui.lua"))()
 ```
 
 ## Forking This
@@ -60,3 +60,7 @@ Source code
 The demonstration window can be found here.
 
 More usage examples can be found on the Wiki.
+
+## Final statement
+
+None of this code is mine and all belongs to **depthso**
