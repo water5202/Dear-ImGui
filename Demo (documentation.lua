@@ -8,7 +8,7 @@ local ImGui
 if IsStudio then
 	ImGui = require(ReplicatedStorage.ImGui)
 else
-	local SourceURL = 'https://web.archive.org/web/20250214132404/https://github.com/depthso/Roblox-ImGUI/raw/main/ImGui.lua'
+	local SourceURL = 'https://raw.githubusercontent.com/water5202/Dear-ImGui/refs/heads/main/ImGui.lua'
 	ImGui = loadstring(game:HttpGet(SourceURL))()
 end
 
