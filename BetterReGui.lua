@@ -1321,7 +1321,12 @@ function ReGui:ResolveUIParent(): GuiObject?
 
 	local Steps = {
 		[1] = function()
-			local Parent = GetHiddenUI()
+			if GetHiddenUI then
+				local Parent = GetHiddenUI()
+			else
+				local Parent = game.CoreGui
+			end
+
 			if Parent.Parent == CoreGui then return end
 			
 			return Parent
