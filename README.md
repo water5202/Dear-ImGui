@@ -40,6 +40,10 @@ If support is not found, for example when using this in Studio, you are still ab
 ```lua
 local ImGui = loadstring(game:HttpGet("https://raw.githubusercontent.com/water5202/Dear-ImGui/refs/heads/main/ImGui.lua"))()
 ```
+you can also use the **deprecated** deptho's ImGui Library
+```lua
+local ImGui = loadstring(game:HttpGet('https://github.com/depthso/Roblox-ImGUI/raw/main/ImGui.lua'))()
+```
 
 ## Forking This
 
