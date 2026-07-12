@@ -30,6 +30,7 @@ local ReplicatedStorage = game:GetService("ReplicatedStorage")
 
 local ImGui = require(ReplicatedStorage.ImGui)
 ```
+**Though**, I doubt anyone is using this for their debug guis because it is intended for an exploit enviroment.
 
 ### Exploit / Executor
 
@@ -38,7 +39,7 @@ Reference detections have been mitigated using `cloneref`, and compatibility is 
 If support is not found, for example when using this in Studio, you are still able to use it.
 
 ```lua
-
+loadstring(game:HttpGet('https://raw.githubusercontent.com/water5202/Dear-ImGui/refs/heads/main/BetterReGui.lua'))()
 ```
 you can also use the **deprecated** deptho's ImGui Library
 ```lua
